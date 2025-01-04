@@ -1,16 +1,10 @@
+"""
+Sum of N natural numbers = n * (n +1) / 2
+"""
+
 def main(): 
-    try:
-        userInput = int(input("Input n = "))
-        print(f"Output: {sum(userInput)}")
-    except: 
-        print("Invalid Input")
-
-def sum(n):
-    sum = 0 
-    for i in range(1,n+1):
-        sum += i
-    return sum 
-
+    userInput = int(input("Input: "))
+    print(f"Output: {int(userInput * (userInput + 1) / 2)}")
 
 if __name__ == "__main__": 
     main()
