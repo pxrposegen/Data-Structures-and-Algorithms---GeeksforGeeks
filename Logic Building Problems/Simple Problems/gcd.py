@@ -19,5 +19,5 @@ def gcd(a, b):
 def main():
     print(f"GCD of 98 and 56 = {gcd(98,56)}")
 
-
-main()
+if __name__ == "__main__":
+    main()
